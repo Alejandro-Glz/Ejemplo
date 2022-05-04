@@ -246,6 +246,16 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Acadamy.Core\Acadamy.Core.csproj">
+      <Project>{f8050185-1c62-473a-8752-4ed172f0f9e0}</Project>
+      <Name>Acadamy.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Academy.Infrastructure\Academy.Infrastructure.csproj">
+      <Project>{e528ef5f-c16f-4cd9-a96c-dfb4ac00578d}</Project>
+      <Name>Academy.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
