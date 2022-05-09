@@ -41,12 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BussinesModels\Todo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryInterfaces\ITodosRepository.cs" />
+    <Compile Include="ServicesInterfaces\ITodosService.cs" />
+    <Compile Include="Services\TodosService.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BussinesModels\" />
-    <Folder Include="ServicesInterfaces\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
